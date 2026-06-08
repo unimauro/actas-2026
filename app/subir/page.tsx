@@ -81,7 +81,7 @@ export default function SubirPage() {
           <span className="text-4xl">📸</span>
           <span className="font-semibold">Toma o elige la foto del acta</span>
           <span className="text-sm text-white/50">Se comprime en tu celular antes de subir</span>
-          <input type="file" accept="image/*" capture="environment" className="hidden" onChange={onFile} />
+          <input type="file" accept="image/*" className="hidden" onChange={onFile} />
         </label>
       )}
 
