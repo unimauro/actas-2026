@@ -35,7 +35,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span>Actas Abiertas <span className="text-sky-400">2026</span></span>
             </Link>
             <div className="flex gap-1 text-sm">
-              <Link href="/subir" className="rounded-lg px-3 py-1.5 hover:bg-white/10">Subir acta</Link>
+              <Link href="/subir" className="rounded-lg px-3 py-1.5 hover:bg-white/10">Subir</Link>
+              <Link href="/lote" className="rounded-lg px-3 py-1.5 hover:bg-white/10">Subir varias</Link>
               <Link href="/dashboard" className="rounded-lg px-3 py-1.5 hover:bg-white/10">Dashboard</Link>
             </div>
           </nav>

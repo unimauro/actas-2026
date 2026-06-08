@@ -69,11 +69,14 @@ export default function SubirPage() {
             {personero.personero_nombre ? ` · ${personero.personero_nombre}` : ""}
           </p>
         </div>
-        {fase !== "idle" && (
-          <button onClick={reset} className="text-sm text-sky-400 hover:underline">
-            ↺ Subir otra
-          </button>
-        )}
+        <div className="flex items-center gap-4">
+          <Link href="/lote" className="text-sm text-sky-400 hover:underline">Subir varias →</Link>
+          {fase !== "idle" && (
+            <button onClick={reset} className="text-sm text-sky-400 hover:underline">
+              ↺ Subir otra
+            </button>
+          )}
+        </div>
       </div>
 
       {fase === "idle" && (
