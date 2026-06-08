@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+dist/
+
+# env
+.env
+.env*.local
+.env.production
+
+# netlify
+.netlify/
+
+# supabase
+supabase/.branches
+supabase/.temp
+
+# logs / os
+*.log
+npm-debug.log*
+.DS_Store
+
+# editor
+.vscode/
+.idea/
+
+# imágenes de prueba (no subir actas reales al repo)
+/samples/*.jpeg
+/samples/*.jpg
+/samples/*.png
