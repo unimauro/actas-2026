@@ -19,7 +19,9 @@ Documento vivo. Marca con `[x]` lo que se vaya completando. Nació como experime
 - [x] Tarjeta dinámica para redes (Open Graph) + favicon + botones compartir
 - [x] Google Analytics (visitantes)
 - [x] Script de carga por lote desde imágenes (con delay anti-rate-limit y guardia de mesa inválida)
-- [x] Deploy en Netlify (`conteojp.netlify.app`) + repo público + README + LICENSE
+- [x] **Carga en lote desde el celular** (`/lote`): elegir varias fotos y procesarlas en serie (compresión → OCR → subida) con tabla de resultados por acta y pausa anti-rate-limit
+- [x] Selección desde **galería/archivos** en celular (no solo cámara)
+- [x] Deploy en Netlify (`conteojp.netlify.app`) + repo público + README + LICENSE + ROADMAP
 
 ---
 
